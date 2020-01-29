@@ -5,7 +5,7 @@
 var pokemonRepository = (function() {
   var repository = [];
   //URL to access pokedex
-  var apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=10';
+  var apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=25';
   //Function to add Pokemon data
   function add(pokemon) {
     repository.push(pokemon);
